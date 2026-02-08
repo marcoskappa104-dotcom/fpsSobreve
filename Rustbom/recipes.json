@@ -1,0 +1,475 @@
+[
+  {
+    "id": 1,
+    "name": "Stone Hatchet",
+    "description": "Machado de pedra. Básico para madeira.",
+    "resultItemId": 301,
+    "resultQuantity": 1,
+    "craftingTime": 3,
+    "requiredWorkbench": 0,
+    "category": "Tools",
+    "ingredients": [
+      { "itemId": 100, "quantity": 200 },
+      { "itemId": 101, "quantity": 100 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 2,
+    "name": "Stone Pickaxe",
+    "description": "Picareta de pedra. Básico para minérios.",
+    "resultItemId": 302,
+    "resultQuantity": 1,
+    "craftingTime": 3,
+    "requiredWorkbench": 0,
+    "category": "Tools",
+    "ingredients": [
+      { "itemId": 100, "quantity": 200 },
+      { "itemId": 101, "quantity": 100 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 3,
+    "name": "Wooden Spear",
+    "description": "Lança de madeira. Defesa inicial.",
+    "resultItemId": 400,
+    "resultQuantity": 1,
+    "craftingTime": 5,
+    "requiredWorkbench": 0,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 100, "quantity": 300 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 4,
+    "name": "Hunting Bow",
+    "description": "Arco de caça. Silencioso.",
+    "resultItemId": 500,
+    "resultQuantity": 1,
+    "craftingTime": 10,
+    "requiredWorkbench": 0,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 100, "quantity": 200 },
+      { "itemId": 107, "quantity": 50 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 5,
+    "name": "Wooden Arrow",
+    "description": "Flechas de madeira.",
+    "resultItemId": 600,
+    "resultQuantity": 2,
+    "craftingTime": 2,
+    "requiredWorkbench": 0,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 100, "quantity": 25 },
+      { "itemId": 101, "quantity": 10 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 6,
+    "name": "Building Plan",
+    "description": "Plano de construção (Papel).",
+    "resultItemId": 1000, 
+    "resultQuantity": 1,
+    "craftingTime": 1,
+    "requiredWorkbench": 0,
+    "category": "Construction",
+    "ingredients": [
+      { "itemId": 100, "quantity": 20 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 7,
+    "name": "Hammer",
+    "description": "Martelo para reparar/construir.",
+    "resultItemId": 307,
+    "resultQuantity": 1,
+    "craftingTime": 2,
+    "requiredWorkbench": 0,
+    "category": "Tools",
+    "ingredients": [
+      { "itemId": 100, "quantity": 100 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 10,
+    "name": "Workbench Level 1",
+    "description": "Bancada nível 1.",
+    "resultItemId": 1100,
+    "resultQuantity": 1,
+    "craftingTime": 15,
+    "requiredWorkbench": 0,
+    "category": "Items",
+    "ingredients": [
+      { "itemId": 100, "quantity": 500 },
+      { "itemId": 104, "quantity": 100 },
+      { "itemId": 113, "quantity": 50 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 11,
+    "name": "Furnace",
+    "description": "Fornalha.",
+    "resultItemId": 1008,
+    "resultQuantity": 1,
+    "craftingTime": 10,
+    "requiredWorkbench": 0,
+    "category": "Items",
+    "ingredients": [
+      { "itemId": 101, "quantity": 200 },
+      { "itemId": 100, "quantity": 100 },
+      { "itemId": 110, "quantity": 50 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 12,
+    "name": "Sleeping Bag",
+    "description": "Saco de dormir.",
+    "resultItemId": 1009,
+    "resultQuantity": 1,
+    "craftingTime": 5,
+    "requiredWorkbench": 0,
+    "category": "Items",
+    "ingredients": [
+      { "itemId": 107, "quantity": 30 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 13,
+    "name": "Wooden Door",
+    "description": "Porta de madeira.",
+    "resultItemId": 1003,
+    "resultQuantity": 1,
+    "craftingTime": 5,
+    "requiredWorkbench": 0,
+    "category": "Construction",
+    "ingredients": [
+      { "itemId": 100, "quantity": 300 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 14,
+    "name": "Code Lock",
+    "description": "Fechadura digital.",
+    "resultItemId": 1005,
+    "resultQuantity": 1,
+    "craftingTime": 5,
+    "requiredWorkbench": 0,
+    "category": "Items",
+    "ingredients": [
+      { "itemId": 104, "quantity": 100 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 15,
+    "name": "Tool Cupboard",
+    "description": "Armário de ferramentas.",
+    "resultItemId": 1006,
+    "resultQuantity": 1,
+    "craftingTime": 15,
+    "requiredWorkbench": 0,
+    "category": "Items",
+    "ingredients": [
+      { "itemId": 100, "quantity": 1000 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 20,
+    "name": "Metal Hatchet",
+    "description": "Machado de metal.",
+    "resultItemId": 303,
+    "resultQuantity": 1,
+    "craftingTime": 10,
+    "requiredWorkbench": 1,
+    "category": "Tools",
+    "ingredients": [
+      { "itemId": 104, "quantity": 100 },
+      { "itemId": 100, "quantity": 50 }
+    ],
+    "unlockLevel": 1,
+    "isDefault": false
+  },
+  {
+    "id": 21,
+    "name": "Metal Pickaxe",
+    "description": "Picareta de metal.",
+    "resultItemId": 304,
+    "resultQuantity": 1,
+    "craftingTime": 10,
+    "requiredWorkbench": 1,
+    "category": "Tools",
+    "ingredients": [
+      { "itemId": 104, "quantity": 100 },
+      { "itemId": 100, "quantity": 50 }
+    ],
+    "unlockLevel": 1,
+    "isDefault": false
+  },
+  {
+    "id": 22,
+    "name": "Revolver",
+    "description": "Revólver.",
+    "resultItemId": 502,
+    "resultQuantity": 1,
+    "craftingTime": 20,
+    "requiredWorkbench": 1,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 201, "quantity": 1 },
+      { "itemId": 104, "quantity": 100 },
+      { "itemId": 107, "quantity": 10 }
+    ],
+    "unlockLevel": 1,
+    "isDefault": false
+  },
+  {
+    "id": 23,
+    "name": "Pistol Ammo",
+    "description": "Munição de pistola.",
+    "resultItemId": 601,
+    "resultQuantity": 2,
+    "craftingTime": 5,
+    "requiredWorkbench": 1,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 104, "quantity": 10 },
+      { "itemId": 112, "quantity": 5 }
+    ],
+    "unlockLevel": 1,
+    "isDefault": false
+  },
+  {
+    "id": 24,
+    "name": "Waterpipe Shotgun",
+    "description": "Escopeta Waterpipe.",
+    "resultItemId": 503,
+    "resultQuantity": 1,
+    "craftingTime": 15,
+    "requiredWorkbench": 0,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 100, "quantity": 200 },
+      { "itemId": 104, "quantity": 75 }
+    ],
+    "unlockLevel": 0,
+    "isDefault": true
+  },
+  {
+    "id": 30,
+    "name": "Workbench Level 2",
+    "description": "Bancada nível 2.",
+    "resultItemId": 1101,
+    "resultQuantity": 1,
+    "craftingTime": 20,
+    "requiredWorkbench": 1,
+    "category": "Items",
+    "ingredients": [
+      { "itemId": 104, "quantity": 500 },
+      { "itemId": 100, "quantity": 200 },
+      { "itemId": 113, "quantity": 500 }
+    ],
+    "unlockLevel": 1,
+    "isDefault": false
+  },
+  {
+    "id": 31,
+    "name": "Semi-Automatic Rifle",
+    "description": "Rifle Semi-Auto (SAR).",
+    "resultItemId": 505,
+    "resultQuantity": 1,
+    "craftingTime": 30,
+    "requiredWorkbench": 2,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 104, "quantity": 450 },
+      { "itemId": 100, "quantity": 100 },
+      { "itemId": 201, "quantity": 1 }
+    ],
+    "unlockLevel": 2,
+    "isDefault": false
+  },
+  {
+    "id": 32,
+    "name": "Thompson",
+    "description": "Thompson SMG.",
+    "resultItemId": 506,
+    "resultQuantity": 1,
+    "craftingTime": 30,
+    "requiredWorkbench": 2,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 106, "quantity": 10 },
+      { "itemId": 104, "quantity": 100 },
+      { "itemId": 207, "quantity": 1 },
+      { "itemId": 202, "quantity": 1 }
+    ],
+    "unlockLevel": 2,
+    "isDefault": false
+  },
+  {
+    "id": 33,
+    "name": "Medical Syringe",
+    "description": "Seringa Médica.",
+    "resultItemId": 801,
+    "resultQuantity": 1,
+    "craftingTime": 5,
+    "requiredWorkbench": 1,
+    "category": "Items",
+    "ingredients": [
+      { "itemId": 104, "quantity": 10 },
+      { "itemId": 107, "quantity": 10 },
+      { "itemId": 110, "quantity": 10 }
+    ],
+    "unlockLevel": 1,
+    "isDefault": false
+  },
+  {
+    "id": 34,
+    "name": "5.56 Rifle Ammo",
+    "description": "Munição de Rifle.",
+    "resultItemId": 602,
+    "resultQuantity": 2,
+    "craftingTime": 5,
+    "requiredWorkbench": 2,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 104, "quantity": 10 },
+      { "itemId": 112, "quantity": 10 }
+    ],
+    "unlockLevel": 2,
+    "isDefault": false
+  },
+  {
+    "id": 40,
+    "name": "Workbench Level 3",
+    "description": "Bancada nível 3.",
+    "resultItemId": 1102,
+    "resultQuantity": 1,
+    "craftingTime": 30,
+    "requiredWorkbench": 2,
+    "category": "Items",
+    "ingredients": [
+      { "itemId": 106, "quantity": 100 },
+      { "itemId": 104, "quantity": 1000 },
+      { "itemId": 113, "quantity": 1250 }
+    ],
+    "unlockLevel": 2,
+    "isDefault": false
+  },
+  {
+    "id": 41,
+    "name": "Assault Rifle",
+    "description": "AK-47.",
+    "resultItemId": 509,
+    "resultQuantity": 1,
+    "craftingTime": 60,
+    "requiredWorkbench": 3,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 206, "quantity": 1 },
+      { "itemId": 202, "quantity": 4 },
+      { "itemId": 106, "quantity": 50 },
+      { "itemId": 100, "quantity": 200 }
+    ],
+    "unlockLevel": 3,
+    "isDefault": false
+  },
+  {
+    "id": 42,
+    "name": "Bolt Action Rifle",
+    "description": "Bolt Sniper.",
+    "resultItemId": 510,
+    "resultQuantity": 1,
+    "craftingTime": 60,
+    "requiredWorkbench": 3,
+    "category": "Weapons",
+    "ingredients": [
+      { "itemId": 206, "quantity": 1 },
+      { "itemId": 201, "quantity": 3 },
+      { "itemId": 106, "quantity": 30 }
+    ],
+    "unlockLevel": 3,
+    "isDefault": false
+  },
+  {
+    "id": 43,
+    "name": "Timed Explosive Charge",
+    "description": "C4.",
+    "resultItemId": 700,
+    "resultQuantity": 1,
+    "craftingTime": 30,
+    "requiredWorkbench": 3,
+    "category": "Items",
+    "ingredients": [
+      { "itemId": 112, "quantity": 1000 },
+      { "itemId": 104, "quantity": 200 },
+      { "itemId": 107, "quantity": 50 },
+      { "itemId": 208, "quantity": 2 }
+    ],
+    "unlockLevel": 3,
+    "isDefault": false
+  },
+  {
+    "id": 44,
+    "name": "Metal Chestplate",
+    "description": "Peitoral de Metal.",
+    "resultItemId": 904,
+    "resultQuantity": 1,
+    "craftingTime": 20,
+    "requiredWorkbench": 2,
+    "category": "Attire",
+    "ingredients": [
+      { "itemId": 106, "quantity": 25 },
+      { "itemId": 204, "quantity": 8 },
+      { "itemId": 108, "quantity": 50 }
+    ],
+    "unlockLevel": 2,
+    "isDefault": false
+  },
+  {
+    "id": 45,
+    "name": "Metal Facemask",
+    "description": "Máscara de Metal.",
+    "resultItemId": 905,
+    "resultQuantity": 1,
+    "craftingTime": 20,
+    "requiredWorkbench": 2,
+    "category": "Attire",
+    "ingredients": [
+      { "itemId": 106, "quantity": 15 },
+      { "itemId": 204, "quantity": 6 },
+      { "itemId": 108, "quantity": 30 }
+    ],
+    "unlockLevel": 2,
+    "isDefault": false
+  }
+]
